@@ -1,0 +1,46 @@
+{
+  "region": "apac-south",
+  "region_name": "APAC South",
+  "event": "split1-pro-league",
+  "groups": {
+    "A": [
+      { "name": "VK Gaming", "tag": "VK", "seed": "invited" },
+      { "name": "Gen.G Esports", "tag": "GENG", "seed": "invited" },
+      { "name": "Outside", "tag": "OUT", "seed": "invited" },
+      { "name": "RRQ", "tag": "RRQ", "seed": "invited" },
+      { "name": "Wolves Esports", "tag": "WLV", "seed": "invited" },
+      { "name": "Dogred", "tag": "DGR", "seed": "invited" },
+      { "name": "XNY", "tag": "XNY", "seed": "invited" },
+      { "name": "Keep Going Gaming", "tag": "KGG", "seed": "invited" },
+      { "name": "Grape Soda", "tag": "GS", "seed": "qualifier" },
+      { "name": "QoR Gaming", "tag": "QOR", "seed": "qualifier" }
+    ],
+    "B": [
+      { "name": "S8UL Esports", "tag": "S8UL", "seed": "invited" },
+      { "name": "Team Mango", "tag": "MNG", "seed": "invited" },
+      { "name": "Boogie Boarders", "tag": "BB", "seed": "invited" },
+      { "name": "Remarkable Team", "tag": "RMK", "seed": "invited" },
+      { "name": "Deep Cross Gaming", "tag": "DCG", "seed": "invited" },
+      { "name": "Kakkoii", "tag": "KKI", "seed": "invited" },
+      { "name": "MDY Black", "tag": "MDY", "seed": "invited" },
+      { "name": "DreamFire", "tag": "DF", "seed": "invited" },
+      { "name": "Tom Yum Kung", "tag": "TYK", "seed": "qualifier" },
+      { "name": "Rendang", "tag": "RDG", "seed": "qualifier" }
+    ],
+    "C": [
+      { "name": "HAVOC", "tag": "HVC", "seed": "invited" },
+      { "name": "BearClaw Gaming", "tag": "BCG", "seed": "invited" },
+      { "name": "Orangutan", "tag": "OTN", "seed": "invited" },
+      { "name": "Rex Regum Qeon", "tag": "RRQ2", "seed": "invited" },
+      { "name": "Team Flash", "tag": "FL", "seed": "invited" },
+      { "name": "BOOM Esports", "tag": "BOOM", "seed": "invited" },
+      { "name": "Vexed Gaming", "tag": "VXD", "seed": "invited" },
+      { "name": "Attack All Around", "tag": "AAA", "seed": "invited" },
+      { "name": "Enigma Gaming", "tag": "ENG", "seed": "qualifier" },
+      { "name": "Siren Esports", "tag": "SRN", "seed": "qualifier" }
+    ]
+  },
+  "estimated_start_time_utc": "10:00",
+  "typical_timezone": "Asia/Singapore",
+  "typical_local_time": "18:00"
+}

@@ -1,0 +1,46 @@
+{
+  "region": "americas",
+  "region_name": "Americas",
+  "event": "split1-pro-league",
+  "groups": {
+    "A": [
+      { "name": "Oblivion", "tag": "OBL", "seed": "invited" },
+      { "name": "Team Falcons", "tag": "FLCN", "seed": "invited" },
+      { "name": "Shopify Rebellion", "tag": "SR", "seed": "invited" },
+      { "name": "Stallions", "tag": "STL", "seed": "invited" },
+      { "name": "DKK", "tag": "DKK", "seed": "invited" },
+      { "name": "ROC Esports", "tag": "ROC", "seed": "invited" },
+      { "name": "Pioneers", "tag": "PNR", "seed": "invited" },
+      { "name": "Fury", "tag": "FRY", "seed": "invited" },
+      { "name": "Limitless", "tag": "LMT", "seed": "qualifier" },
+      { "name": "Forbidden Gaming", "tag": "FBD", "seed": "qualifier" }
+    ],
+    "B": [
+      { "name": "Team Liquid", "tag": "TL", "seed": "invited" },
+      { "name": "HUSS", "tag": "HUSS", "seed": "invited" },
+      { "name": "Ninjas in Pyjamas", "tag": "NIP", "seed": "invited" },
+      { "name": "LEGACY", "tag": "LGC", "seed": "invited" },
+      { "name": "Crazy Thieves", "tag": "CT", "seed": "invited" },
+      { "name": "Washed", "tag": "WSD", "seed": "invited" },
+      { "name": "Sentinels", "tag": "SEN", "seed": "invited" },
+      { "name": "Overhead", "tag": "OVH", "seed": "invited" },
+      { "name": "Oxygen Esports", "tag": "OXG", "seed": "qualifier" },
+      { "name": "Wildcard", "tag": "WC", "seed": "qualifier" }
+    ],
+    "C": [
+      { "name": "Cloud9", "tag": "C9", "seed": "invited" },
+      { "name": "FURIA", "tag": "FUR", "seed": "invited" },
+      { "name": "100 Thieves", "tag": "100T", "seed": "invited" },
+      { "name": "OpTic Gaming", "tag": "OPTC", "seed": "invited" },
+      { "name": "TSM", "tag": "TSM", "seed": "invited" },
+      { "name": "Moist Esports", "tag": "MST", "seed": "invited" },
+      { "name": "G2 Esports", "tag": "G2", "seed": "invited" },
+      { "name": "Luminosity", "tag": "LG", "seed": "invited" },
+      { "name": "Quadrant", "tag": "QDR", "seed": "qualifier" },
+      { "name": "Spacestation", "tag": "SSG", "seed": "qualifier" }
+    ]
+  },
+  "estimated_start_time_utc": "00:00",
+  "typical_timezone": "America/Los_Angeles",
+  "typical_local_time": "16:00"
+}

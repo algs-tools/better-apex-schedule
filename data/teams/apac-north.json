@@ -1,0 +1,46 @@
+{
+  "region": "apac-north",
+  "region_name": "APAC North",
+  "event": "split1-pro-league",
+  "groups": {
+    "A": [
+      { "name": "REJECT", "tag": "RC", "seed": "invited" },
+      { "name": "RIDDLE", "tag": "RDL", "seed": "invited" },
+      { "name": "Fnatic", "tag": "FNC", "seed": "invited" },
+      { "name": "TriniTY", "tag": "3TY", "seed": "invited" },
+      { "name": "SBI e-Sports", "tag": "SBI", "seed": "invited" },
+      { "name": "ENTER FORCE.36", "tag": "EF36", "seed": "invited" },
+      { "name": "KINOTROPE gaming", "tag": "KNT", "seed": "invited" },
+      { "name": "Dory", "tag": "DORY", "seed": "invited" },
+      { "name": "BLACK Sheeps", "tag": "BKS", "seed": "qualifier" },
+      { "name": "GROW Gaming", "tag": "GROW", "seed": "qualifier" }
+    ],
+    "B": [
+      { "name": "SYRALE", "tag": "SYR", "seed": "invited" },
+      { "name": "White Grim Reaper", "tag": "WGR", "seed": "invited" },
+      { "name": "LawsonTicketXone", "tag": "LTX", "seed": "invited" },
+      { "name": "REIGNITE", "tag": "RIG", "seed": "invited" },
+      { "name": "UNLIMIT", "tag": "UNL", "seed": "invited" },
+      { "name": "Meteor", "tag": "MTR", "seed": "invited" },
+      { "name": "TIE", "tag": "TIE", "seed": "invited" },
+      { "name": "DOSUKOI Impact", "tag": "DSK", "seed": "invited" },
+      { "name": "REALIZE", "tag": "RLZ", "seed": "qualifier" },
+      { "name": "NOEZ FOXX", "tag": "NF", "seed": "qualifier" }
+    ],
+    "C": [
+      { "name": "Sengoku Gaming", "tag": "SG", "seed": "invited" },
+      { "name": "NORTHEPTION", "tag": "NTH", "seed": "invited" },
+      { "name": "FENNEL", "tag": "FNL", "seed": "invited" },
+      { "name": "DetonatioN FocusMe", "tag": "DFM", "seed": "invited" },
+      { "name": "Crazy Raccoon", "tag": "CR", "seed": "invited" },
+      { "name": "ZETA DIVISION", "tag": "ZETA", "seed": "invited" },
+      { "name": "Flora", "tag": "FLR", "seed": "invited" },
+      { "name": "V3 Esports", "tag": "V3", "seed": "invited" },
+      { "name": "Burning Core", "tag": "BC", "seed": "qualifier" },
+      { "name": "Lag Gaming", "tag": "LAG", "seed": "qualifier" }
+    ]
+  },
+  "estimated_start_time_utc": "09:00",
+  "typical_timezone": "Asia/Tokyo",
+  "typical_local_time": "18:00"
+}

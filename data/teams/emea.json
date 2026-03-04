@@ -1,0 +1,46 @@
+{
+  "region": "emea",
+  "region_name": "EMEA",
+  "event": "split1-pro-league",
+  "groups": {
+    "A": [
+      { "name": "Alliance", "tag": "ALL", "seed": "invited" },
+      { "name": "FaZe Clan", "tag": "FAZE", "seed": "invited" },
+      { "name": "Aurora Gaming", "tag": "AUR", "seed": "invited" },
+      { "name": "GoNext Esports", "tag": "GNX", "seed": "invited" },
+      { "name": "ECOM", "tag": "ECOM", "seed": "invited" },
+      { "name": "Blessed", "tag": "BLSD", "seed": "invited" },
+      { "name": "FUL", "tag": "FUL", "seed": "invited" },
+      { "name": "Eclipse", "tag": "ECL", "seed": "invited" },
+      { "name": "HM", "tag": "HM", "seed": "qualifier" },
+      { "name": "Make Europe Great Again", "tag": "MEGA", "seed": "qualifier" }
+    ],
+    "B": [
+      { "name": "Gaimin Gladiators", "tag": "GG", "seed": "invited" },
+      { "name": "Citadel Gaming", "tag": "CTD", "seed": "invited" },
+      { "name": "Supernova", "tag": "SNV", "seed": "invited" },
+      { "name": "Infinite", "tag": "INF", "seed": "invited" },
+      { "name": "Pixel Lumina", "tag": "PXL", "seed": "invited" },
+      { "name": "MAMMA MIA", "tag": "MM", "seed": "invited" },
+      { "name": "The Vicious", "tag": "TVC", "seed": "invited" },
+      { "name": "UAV", "tag": "UAV", "seed": "invited" },
+      { "name": "Legion Gaming", "tag": "LGN", "seed": "qualifier" },
+      { "name": "DSK", "tag": "DSK", "seed": "qualifier" }
+    ],
+    "C": [
+      { "name": "POT", "tag": "POT", "seed": "invited" },
+      { "name": "SJP2", "tag": "SJP2", "seed": "invited" },
+      { "name": "Redemption", "tag": "RDM", "seed": "invited" },
+      { "name": "Northern Lights", "tag": "NL", "seed": "invited" },
+      { "name": "Natus Vincere", "tag": "NAVI", "seed": "invited" },
+      { "name": "SCARZ", "tag": "SCZ", "seed": "invited" },
+      { "name": "Fire Flux Esports", "tag": "FFX", "seed": "invited" },
+      { "name": "Acend", "tag": "ACE", "seed": "invited" },
+      { "name": "Entropiq", "tag": "ENT", "seed": "qualifier" },
+      { "name": "Rix.GG", "tag": "RIX", "seed": "qualifier" }
+    ]
+  },
+  "estimated_start_time_utc": "17:00",
+  "typical_timezone": "Europe/Paris",
+  "typical_local_time": "19:00"
+}

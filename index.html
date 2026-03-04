@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ALGS Year 6 Schedule</title>
+  <meta name="description" content="ALGS Year 6 schedule with automatic timezone conversion. Never miss an Apex Legends Global Series match.">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <div class="header-content">
+      <h1>ALGS Year 6 Schedule</h1>
+      <p class="subtitle">Apex Legends Global Series 2026&ndash;2027</p>
+    </div>
+    <div class="header-controls">
+      <div class="timezone-control">
+        <label for="timezone-select">Timezone:</label>
+        <span id="detected-tz" class="tz-badge"></span>
+        <select id="timezone-select" aria-label="Override timezone"></select>
+      </div>
+      <button id="theme-toggle" aria-label="Toggle dark/light mode" title="Toggle theme">
+        <span class="theme-icon">&#9789;</span>
+      </button>
+    </div>
+  </header>
+
+  <nav class="filters">
+    <div class="filter-group">
+      <span class="filter-label">Region:</span>
+      <button class="filter-btn active" data-region="all">All</button>
+      <button class="filter-btn" data-region="americas">Americas</button>
+      <button class="filter-btn" data-region="emea">EMEA</button>
+      <button class="filter-btn" data-region="apac-north">APAC North</button>
+      <button class="filter-btn" data-region="apac-south">APAC South</button>
+    </div>
+    <div class="filter-group">
+      <span class="filter-label">Event:</span>
+      <button class="filter-btn active" data-event="all">All</button>
+      <button class="filter-btn" data-event="online-opens">Online Opens</button>
+      <button class="filter-btn" data-event="split1-pro-league">Split 1 Pro League</button>
+      <button class="filter-btn" data-event="split1-playoffs">Split 1 Playoffs</button>
+      <button class="filter-btn" data-event="split2-pro-league">Split 2 Pro League</button>
+      <button class="filter-btn" data-event="split2-playoffs">Split 2 Playoffs</button>
+      <button class="filter-btn" data-event="championship">Championship</button>
+    </div>
+    <div class="filter-group calendar-group">
+      <span class="filter-label">Calendar:</span>
+      <button class="cal-btn" data-cal-region="americas" title="Download Americas .ics">Americas .ics</button>
+      <button class="cal-btn" data-cal-region="emea" title="Download EMEA .ics">EMEA .ics</button>
+      <button class="cal-btn" data-cal-region="apac-north" title="Download APAC North .ics">APAC-N .ics</button>
+      <button class="cal-btn" data-cal-region="apac-south" title="Download APAC South .ics">APAC-S .ics</button>
+      <button class="cal-btn" data-cal-region="all" title="Download all regions .ics">All .ics</button>
+    </div>
+  </nav>
+
+  <main>
+    <section id="season-overview" class="section">
+      <h2>Season Overview</h2>
+      <div id="event-timeline" class="timeline"></div>
+    </section>
+
+    <section id="schedule-section" class="section">
+      <h2>Match Schedule</h2>
+      <div id="schedule-container" class="schedule"></div>
+    </section>
+
+    <section id="teams-section" class="section">
+      <h2>Teams &amp; Groups</h2>
+      <div id="teams-container" class="teams-grid"></div>
+    </section>
+  </main>
+
+  <footer>
+    <p>
+      Times shown in <strong id="footer-tz"></strong>.
+      Italic times are <em>estimated</em> based on historical ALGS patterns.
+    </p>
+    <p>
+      Data sourced from <a href="https://liquipedia.net/apexlegends/Apex_Legends_Global_Series" target="_blank" rel="noopener">Liquipedia</a>
+      and <a href="https://algs.ea.com" target="_blank" rel="noopener">algs.ea.com</a>.
+      Not affiliated with EA or Respawn.
+    </p>
+  </footer>
+
+  <script src="js/app.js"></script>
+</body>
+</html>

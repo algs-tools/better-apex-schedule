@@ -1,0 +1,97 @@
+{
+  "season": "ALGS Year 6",
+  "year": "2026-2027",
+  "total_prize_pool": "$7,000,000 USD",
+  "regions": ["americas", "emea", "apac-north", "apac-south"],
+  "events": [
+    {
+      "id": "online-opens",
+      "name": "Online Opens",
+      "type": "qualifier",
+      "start_date": "2026-02-28",
+      "end_date": "2026-03-22",
+      "description": "Four weekends of open qualifiers. Regional winners earn direct Pro League qualification.",
+      "format": "Open bracket, best-of-6 games",
+      "location": "Online",
+      "prize_pool": null
+    },
+    {
+      "id": "split1-pro-league",
+      "name": "Split 1 Pro League",
+      "type": "pro-league",
+      "start_date": "2026-04-04",
+      "end_date": "2026-06-15",
+      "description": "30 teams per region in triple round-robin format. 3 groups of 10, each team plays 36 games across 6 match series.",
+      "format": "Triple round-robin, 6-game match series",
+      "location": "Online",
+      "prize_pool": "$500,000 USD",
+      "teams_per_region": 30,
+      "groups_per_region": 3,
+      "teams_per_group": 10
+    },
+    {
+      "id": "split1-playoffs",
+      "name": "Split 1 Playoffs",
+      "type": "lan",
+      "start_date": "2026-07-07",
+      "end_date": "2026-07-11",
+      "description": "First LAN event of Year 6 at Esports World Cup 2026. 40 teams compete for Championship Points.",
+      "format": "Group stage into bracket, Match Point Finals",
+      "location": "Riyadh, Saudi Arabia",
+      "venue": "Esports World Cup 2026",
+      "prize_pool": "$2,000,000 USD",
+      "teams": 40
+    },
+    {
+      "id": "split2-pro-league",
+      "name": "Split 2 Pro League",
+      "type": "pro-league",
+      "start_date": "2026-08-31",
+      "end_date": "2026-10-12",
+      "description": "Second split of Pro League competition. Same triple round-robin format.",
+      "format": "Triple round-robin, 6-game match series",
+      "location": "Online",
+      "prize_pool": "$500,000 USD",
+      "teams_per_region": 30,
+      "groups_per_region": 3,
+      "teams_per_group": 10
+    },
+    {
+      "id": "split2-playoffs",
+      "name": "Split 2 Playoffs",
+      "type": "lan",
+      "start_date": "2026-10-29",
+      "end_date": "2026-11-01",
+      "description": "Second LAN of Year 6. 40 teams compete for Championship Points and POI draft positioning.",
+      "format": "Group stage into bracket, Match Point Finals",
+      "location": "Las Vegas, USA",
+      "venue": "Orleans Arena",
+      "prize_pool": "$2,000,000 USD",
+      "teams": 40
+    },
+    {
+      "id": "last-chance-qualifier",
+      "name": "Last Chance Qualifier",
+      "type": "qualifier",
+      "start_date": "2026-11-20",
+      "end_date": "2026-11-22",
+      "description": "Final qualification opportunity for the Championship. Four regional qualifiers.",
+      "format": "Regional brackets, top teams qualify",
+      "location": "Online",
+      "prize_pool": null
+    },
+    {
+      "id": "championship",
+      "name": "ALGS Championship",
+      "type": "lan",
+      "start_date": "2027-01-28",
+      "end_date": "2027-01-31",
+      "description": "The pinnacle of ALGS Year 6. Third consecutive year in Sapporo.",
+      "format": "Group stage (4 groups of 10), bracket, Match Point Grand Finals",
+      "location": "Sapporo, Japan",
+      "venue": "Daiwa House Premist Dome",
+      "prize_pool": "$2,000,000 USD",
+      "teams": 40
+    }
+  ]
+}
