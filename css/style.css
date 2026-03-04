@@ -101,9 +101,14 @@ header {
   color: var(--text-secondary);
 }
 
+.tz-detected-label {
+  color: var(--text-muted);
+  font-size: 0.8rem;
+}
+
 .tz-badge {
-  background: var(--accent-dim);
-  color: var(--accent);
+  background: rgba(79, 195, 247, 0.12);
+  color: var(--status-upcoming);
   padding: 0.15rem 0.5rem;
   border-radius: 4px;
   font-size: 0.8rem;
