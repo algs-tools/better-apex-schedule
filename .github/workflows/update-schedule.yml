@@ -1,0 +1,36 @@
+name: Update schedule
+
+# 06:00 UTC Monday = 02:00 EDT (Mar-Nov) / 01:00 EST (Nov-Mar).
+# GitHub cron is UTC-only and doesn't track DST; close enough to the weekly
+# Monday-2am-ish slot year-round.
+on:
+  schedule:
+    - cron: '0 6 * * 1'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - run: python scripts/update_match_status.py
+
+      - name: Commit and push if changed
+        run: |
+          if git diff --quiet data/schedule/; then
+            echo "No changes to commit"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/schedule/
+          git commit -m "data: auto-update match statuses"
+          git push
