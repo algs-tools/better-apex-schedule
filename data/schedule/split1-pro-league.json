@@ -197,7 +197,7 @@
       "description": "Group A vs Group B",
       "groups": ["A", "B"],
       "games": 6,
-      "status": "upcoming",
+      "status": "completed",
       "stream_url": null
     },
     {
@@ -212,7 +212,7 @@
       "description": "Group A vs Group B",
       "groups": ["A", "B"],
       "games": 6,
-      "status": "upcoming",
+      "status": "completed",
       "stream_url": null
     },
     {
@@ -227,7 +227,7 @@
       "description": "Group A vs Group B",
       "groups": ["A", "B"],
       "games": 6,
-      "status": "upcoming",
+      "status": "completed",
       "stream_url": null
     },
     {
@@ -242,7 +242,7 @@
       "description": "Group A vs Group B",
       "groups": ["A", "B"],
       "games": 6,
-      "status": "upcoming",
+      "status": "completed",
       "stream_url": null
     },
     {
