@@ -557,7 +557,7 @@
       "description": "Regional Finals - Match Point Format",
       "groups": ["A", "B", "C"],
       "games": null,
-      "status": "upcoming",
+      "status": "completed",
       "stream_url": null
     },
     {
@@ -572,7 +572,7 @@
       "description": "Regional Finals - Match Point Format",
       "groups": ["A", "B", "C"],
       "games": null,
-      "status": "upcoming",
+      "status": "completed",
       "stream_url": null
     },
     {
@@ -587,7 +587,7 @@
       "description": "Regional Finals - Match Point Format",
       "groups": ["A", "B", "C"],
       "games": null,
-      "status": "upcoming",
+      "status": "completed",
       "stream_url": null
     },
     {
@@ -602,7 +602,7 @@
       "description": "Regional Finals - Match Point Format",
       "groups": ["A", "B", "C"],
       "games": null,
-      "status": "upcoming",
+      "status": "completed",
       "stream_url": null
     }
   ]
